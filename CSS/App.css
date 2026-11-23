@@ -1,0 +1,33 @@
+/* ===== CSS tambahan: halaman Sistem Informasi (Tugas No. 2) ===== */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(
+        rgba(0, 35, 80, 0.75),
+        rgba(0, 35, 80, 0.75)
+    ), url("https://images.unsplash.com/photo-1497366754035-f200968a6e72");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 110px 0;
+}
+
+.section-title {
+    color: #123c69;
+    font-weight: bold;
+}
+
+.feature-card {
+    transition: 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: #123c69;
+    color: white;
+}

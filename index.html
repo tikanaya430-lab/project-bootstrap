@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistem Informasi ITTelkom Surabaya</title>
+
+    @vite('resources/sass/app.scss')
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark"
+         style="background-color: #123c69;">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                SISTEM INFORMASI
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuNavbar">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#beranda">
+                            Beranda
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">
+                            Tentang Kami
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#program">
+                            Program
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">
+                            Kontak
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HERO / BERANDA -->
+    <section class="hero text-center" id="beranda">
+
+        <div class="container">
+
+            <h1 class="display-4 fw-bold">
+                Sistem Informasi
+            </h1>
+
+            <h2 class="h4 mb-4">
+                ITTelkom Surabaya
+            </h2>
+
+            <p class="lead">
+                Membangun generasi digital yang kreatif,
+                inovatif, dan kompeten.
+            </p>
+
+            <a href="#tentang" class="btn btn-warning btn-lg mt-3">
+                Pelajari Lebih Lanjut
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- TENTANG KAMI -->
+    <section class="py-5" id="tentang">
+
+        <div class="container">
+
+            <div class="text-center mb-4">
+
+                <h2 class="section-title">
+                    Tentang Kami
+                </h2>
+
+                <p class="text-muted">
+                    Mengenal Program Studi Sistem Informasi
+                </p>
+
+            </div>
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6 mb-3">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+                        class="img-fluid rounded shadow"
+                        alt="Lingkungan pendidikan">
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <h3>Program Studi Sistem Informasi</h3>
+
+                    <p>
+                        Sistem Informasi merupakan bidang ilmu
+                        yang menggabungkan teknologi informasi,
+                        manajemen, dan proses bisnis.
+                    </p>
+
+                    <p>
+                        Mahasiswa mempelajari bagaimana
+                        memanfaatkan teknologi untuk membantu
+                        menyelesaikan permasalahan dan
+                        meningkatkan efektivitas organisasi.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROGRAM -->
+    <section class="py-5 bg-light" id="program">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <h2 class="section-title">
+                    Bidang Pembelajaran
+                </h2>
+
+                <p class="text-muted">
+                    Beberapa bidang yang dipelajari
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="card feature-card h-100 shadow-sm">
+
+                        <div class="card-body text-center">
+
+                            <h4 class="card-title">
+                                Pemrograman
+                            </h4>
+
+                            <p class="card-text">
+                                Mempelajari pembuatan aplikasi
+                                dan pengembangan perangkat lunak.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="card feature-card h-100 shadow-sm">
+
+                        <div class="card-body text-center">
+
+                            <h4 class="card-title">
+                                Basis Data
+                            </h4>
+
+                            <p class="card-text">
+                                Mempelajari pengelolaan,
+                                penyimpanan, dan pengolahan data.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="card feature-card h-100 shadow-sm">
+
+                        <div class="card-body text-center">
+
+                            <h4 class="card-title">
+                                Analisis Sistem
+                            </h4>
+
+                            <p class="card-text">
+                                Mempelajari analisis kebutuhan
+                                dan perancangan sistem informasi.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- KONTAK -->
+    <section class="py-5" id="kontak">
+
+        <div class="container text-center">
+
+            <h2 class="section-title mb-3">
+                Hubungi Kami
+            </h2>
+
+            <p>
+                Terima kasih telah mengunjungi website
+                Sistem Informasi ITTelkom Surabaya.
+            </p>
+
+            <a href="https://telkomuniversity.ac.id/"
+               target="_blank"
+               class="btn btn-primary">
+                Website Telkom University
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="py-3 text-center">
+
+        <div class="container">
+
+            <p class="mb-0">
+                © 2026 Sistem Informasi ITTelkom Surabaya.
+                All Rights Reserved.
+            </p>
+
+        </div>
+    </footer>
+
+    @vite('resources/js/app.js')
+
+</body>
+</html>
